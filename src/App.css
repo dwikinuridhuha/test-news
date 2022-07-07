@@ -45,7 +45,12 @@
 /* bagian header */
 .icon-back {
     display: flex;
+    justify-content: space-between;
     color: #fff;
+}
+
+.logut {
+    cursor: pointer;
 }
 
 .title-Page {
