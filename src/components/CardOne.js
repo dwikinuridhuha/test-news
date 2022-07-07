@@ -28,11 +28,13 @@ function CardOne() {
                     <div className="chat">
                         {/*<i className="fa fas fa-share"></i>*/}
                         <spa>24</spa>
+                        {" "}
                         i-chat
                     </div>
                     <div className="love">
                         {/*<i className="fa fa-solid fa-heart"></i>*/}
                         <spa>10</spa>
+                        {" "}
                         i-love
                     </div>
                 </div>
