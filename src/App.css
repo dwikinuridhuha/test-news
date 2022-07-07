@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gibson', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login {
+    margin: auto !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login p {
+    color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mobile-view {
+    margin: auto;
+    max-width: 360px;
+    width: 360px !important;
+    background-color: #2A2E43;
+    overflow: hidden;
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.fix-btn {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    z-index: 100;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fix-btn .btn-news {
+    background-color: #665EFF;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    padding: 10px 15px;
+}
+
+/* bagian header */
+.icon-back {
+    display: flex;
+    color: #fff;
+}
+
+.title-Page {
+    color: #fff;
+    font-size: 40px;
+}
+
+.header-image-bg {
+    margin: auto;
+    padding-top: 35px;
+    position: relative;
+
+    /*overflow: hidden;*/
+    /*z-index: -10;*/
+}
+
+.header-image-bg img {
+    height: 160px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+/*.body-card-one*/
+
+.body-news-card {
+    position: relative;
+    top: -50px;
+}
+
+.mt-card {
+    margin-top: 20px !important;
+}
+
+.mb-card {
+    margin-bottom: 20px;
+}
+
+.body-card-one {
+    width: 300px;
+    padding: 15px;
+    background-color: #fff;
+    color: #78849E;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.profile .info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-card-one .body {
+    margin-top: 10px;
+    font-size: 13px;
+    text-space: 1.1rem;
+    text-align: justify;
+}
+
+.footer-card-one {
+    border-top: 1px rgba(128, 128, 128, 0.47) solid;
+    margin-top: 15px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card-one .icon-chat-love {
+    display: flex;
+}
+
+.footer-card-one .icon-chat-love .chat {
+    margin-right: 10px;
+}
+
+/*.body-card-two*/
+
+.body-card-two {
+    width: 300px;
+    background-color: #fff;
+    color: #78849E;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.side-img {
+    width: 100px;
+}
+
+.side-img img {
+    width: 100px;
+    position: relative;
+    left: -35px;
+    border-radius: 25px;
+}
+
+.side-content {
+    width: 150px;
+}
+
+.side-content .header {
+    display: flex;
+}
+
+.side-content .header .info-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-profile .tgl {
+    font-size: 13px;
+}
+
+.info-profile .name-profile {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.side-content .body {
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.side-content .header .img-info-profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+
+/*body-card-three*/
+
+.body-card-three {
+    width: 300px;
+    background-color: #fff;
+    color: #78849E;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.body-card-three .side-img img {
+    width: 100px;
+    position: relative;
+    left: 55px;
 }
